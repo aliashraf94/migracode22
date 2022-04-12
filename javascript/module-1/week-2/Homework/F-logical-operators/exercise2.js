@@ -5,7 +5,41 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative() {}
+function isNegative(num) {
+  const negative = num < 0
+  if (negative) {
+    return true
+  } else {
+    return false
+  }
+}
+
+function isBetween5and10(num) {
+  if (num >= 5 && num <= 10){
+    return true
+  }  else {
+    return false
+  }
+}
+
+function isShortName(name) {
+  const letters = name.length
+
+  if ( letters < 8 ){
+    return true
+  } else {
+    flase
+  }
+  
+}
+
+function startsWithD(name) {
+  if (name[0] === "D"){
+    return true
+  } else {
+    return false
+  }
+}
 
 /* 
   DO NOT EDIT BELOW THIS LINE
