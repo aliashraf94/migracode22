@@ -6,7 +6,12 @@
 */
 
 function isEmpty(arr) {
-  return; // complete this statement
+  const arrCheck = arr.length; // complete this statement
+  if (arrCheck > 0) {
+    return false;
+  } else {
+    return true;
+  }
 }
 
 /* 
