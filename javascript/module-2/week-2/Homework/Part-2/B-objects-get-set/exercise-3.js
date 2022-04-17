@@ -4,6 +4,11 @@
 
 // WRITE CODE HERE
 
+let kitten = {
+    name: "Gilbert",
+    color: "Brown and white",
+    smellyCat: true
+}
 
 console.log(kitten.name);
 
