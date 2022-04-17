@@ -25,12 +25,14 @@ WRITE YOUR CODE BELOW
 */
 
 
-let persons = // Complete here
+let persons = [person1, person2]
+persons.push(person3)
 
-let personNames = // Complete here
+let personNames = persons.map((person)=>{ return person.name})
 
-let personsYoungerThan28YearsOld = // Complete here
+let personsYoungerThan28YearsOld = persons.filter((person)=>{ return person.age < 28 })
 
+console.log(personsYoungerThan28YearsOld);
 
 /*
 DO NOT EDIT ANYTHING BELOW THIS LINE

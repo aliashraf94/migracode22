@@ -39,12 +39,43 @@ DO NOT EDIT ANYTHING ABOVE THIS LINE
 WRITE YOUR CODE BELOW
 */
 
+// Problem no 1
+let lessThen500 = travelDestinations.filter((destination) => {
+    return destination.distanceKms < 500
+})
 
-let destinationNamesWithin500Kms = // Complete here
+let nameOfCitiesLessThen500 = lessThen500.map((cityName)=>{
+    return cityName.destinationName
+})
 
-let destinationNameReachableByFerry = // Complete here
+let destinationNamesWithin500Kms = nameOfCitiesLessThen500
 
-let destinationNamesMoreThan300KmsAwayByTrain = // Complete here (PRINT THE RESULT IN THE CONSOLE USING FOREACH)
+
+// Problem no 2
+
+let reachableByFerry = travelDestinations.filter((reachable) => {
+    return reachable.transportations.includes("ferry");
+})
+
+let nameOfReachableCityByFerry = reachableByFerry.map((cityName)=>{
+    return cityName.destinationName;
+})
+
+let destinationNameReachableByFerry = nameOfReachableCityByFerry;
+
+
+// Problem no 3
+
+let reachableByTrainAndMoreThen300 = travelDestinations.filter((each)=>{
+    return each.distanceKms > 300 && each.transportations.includes("train")
+})
+
+
+let nameOfCityByTrainMoreThe300 = reachableByTrainAndMoreThen300.map((each)=> {
+    return each.destinationName
+})
+
+let destinationNamesMoreThan300KmsAwayByTrain = nameOfCityByTrainMoreThe300;
 
 
 /*
