@@ -11,3 +11,9 @@ const studentGrades = {
   // Prints
   // TOM - 20
   // ABDUL - 19
+
+for (const key of Object.keys(studentGrades)){
+  if (studentGrades[key] > 18){
+    console.log(`${key}: ${studentGrades[key]}`);
+  }
+}
