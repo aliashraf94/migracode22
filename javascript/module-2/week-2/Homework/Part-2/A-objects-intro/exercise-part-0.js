@@ -10,4 +10,10 @@ let laptop = {
     brand: "Lenovo",
     screenSize: 13,
     isTouchscreen: true,
+    ramGb: 16,
+    processor: "core i5",
+    color: "Gray",
+    hdmiCable: true
   };
+
+  console.log(laptop);

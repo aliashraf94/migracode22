@@ -17,3 +17,33 @@ var car = {
 
 */
 
+let mobile = {
+    brand: "One-Plus",
+    touch: true,
+    memoryGb: 256,
+    ramGb: 16 
+}
+
+let home = {
+    flat: true,
+    city: false,
+    address: "la garriga",
+    zipCode: 08530
+}
+
+let monitor = {
+    sizeInches: 21,
+    eyeProtection: true,
+    hdmi: true
+}
+
+let eyeGlasses = {
+    brand: "ray ban",
+    blueLightProtection: true
+}
+
+let shoes = {
+    barnd: "kalanji",
+    color: "Black and white",
+    reflectors: true
+}
